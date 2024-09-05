@@ -16,9 +16,7 @@ class BasePage {
   /**
    * 페이지에서 사용되는 Element를 리턴한다.
    * */
-  getElement() {
-    return this._elements
-  }
+  getElement() {}
 
   /**
    * 페이지에서 사용할 테스트 데이터 객체를 리턴한다.

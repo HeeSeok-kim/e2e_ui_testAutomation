@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:run:ios": "cypress open --config-file cypress_ios.config.js",
+    "cy:run:aos": "cypress open --config-file cypress_aos.config.js"
   },
   "author": "",
   "license": "ISC",
